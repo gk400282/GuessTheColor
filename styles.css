@@ -12,7 +12,6 @@ h1{
 	background-color: #dedede;
 	text-align: center;
 	text-shadow: 0px 0px 2px white;
-	padding: 50px 0px;
 }
 .optionWrapper{
 	width:100%;
@@ -28,6 +27,9 @@ h1{
 @media(max-width: 500px){
 	#optionsContainer{
 		width: 100%;
+	}
+	h1{
+		padding: 50px 0px;
 	}
 }
 ul{
