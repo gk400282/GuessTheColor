@@ -9,9 +9,10 @@ body{
 	box-sizing: border-box;
 }
 h1{
-	background-color: #dedede;
+	background-color: #173e43;
 	text-align: center;
-	text-shadow: 0px 0px 2px white;
+	text-shadow: 0px 0px 2px #173e43;
+	color: white;
 }
 .optionWrapper{
 	width:100%;
@@ -22,7 +23,6 @@ h1{
 	margin: 0px auto;
 	width: 60%;
 	height: 25px;
-	background-color: white;
 }
 @media(max-width: 500px){
 	#optionsContainer{
@@ -44,9 +44,11 @@ li{
 	height: 100%;
 	text-align: center;
 	transition: background-color 0.3s ease-in;
+	color: #173e43;
 }
 .option:hover{
-	background-color: #dedede;
+	background-color: #173e43;
+	color: white;
 }
 .square{
 	width: 30%;
@@ -61,5 +63,6 @@ li{
 	margin: 20px auto;
 }
 .selected{
-	background-color: #dedede;
+	background-color: #173e43;
+	color: white;
 }
