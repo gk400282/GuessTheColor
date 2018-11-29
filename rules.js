@@ -38,7 +38,7 @@ function resetColors(){
 	saveColors();
 	pickColor();
 	message.textContent = "";
-	header.style.backgroundColor = "#dedede";
+	header.style.backgroundColor = "#173e43";
 	resetButton.textContent = "New Colors";
 }
 function clearColors(){
