@@ -39,6 +39,7 @@ function resetColors(){
 	pickColor();
 	message.textContent = "";
 	header.style.backgroundColor = "#dedede";
+	resetButton.textContent = "New Colors"
 }
 function clearColors(){
 	for(var i = 0; i < 6; i++){
@@ -59,7 +60,6 @@ function modeChange(){
 	clearColors();
 	resetColors();
 	hideUnhide();
-	resetButton.textContent = "New Colors"
 }
 
 
