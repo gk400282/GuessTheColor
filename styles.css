@@ -24,6 +24,11 @@ h1{
 	height: 25px;
 	background-color: white;
 }
+@media(max-width: 500px){
+	#optionsContainer{
+		width: 100%;
+	}
+}
 ul{
 	list-style: none;
 	height: 100%;
